@@ -27,7 +27,7 @@ span {
 }
 
 .wrapper {
-  max-width: 1240px;
+  max-width: 1500px;
   margin: 0 auto;
   padding-inline: 40px;
 }
@@ -290,5 +290,5 @@ footer .top ul {
 }
 footer .copy {
   text-align: right;
-  margin-block: 20px;
+  margin-top: 20px;
 }/*# sourceMappingURL=index.css.map */
