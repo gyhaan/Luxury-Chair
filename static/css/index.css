@@ -43,15 +43,27 @@ section {
   border-radius: 24px;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
 header {
   height: 100px;
   margin-bottom: 30px;
+  background-color: white;
+  z-index: 10;
+  transition: top 0.3s; /* Smooth transition for the header movement */
 }
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 header ul {
   display: flex;
@@ -261,6 +273,13 @@ header li:hover {
   padding-block: 15px;
   border: 1px solid #ececec;
   border-radius: 8px;
+}
+.section04 .wrapper .contact .info h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.section04 .wrapper .contact .info p {
+  color: #858585;
 }
 
 footer {
